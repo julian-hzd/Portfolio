@@ -3,7 +3,6 @@ import data from '../data/projects'
 export default function Projects() {
     let dt = data.map(
         project => {
-            console.log(project)
             return (
                 <div class="center" id="margin-left">
                     <div class="projs_container">
