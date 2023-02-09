@@ -7,6 +7,11 @@ body {
   background-color: #515764 !important;
 }
 
+a{
+  text-decoration: none;
+  color: #b896c2;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -27,7 +32,7 @@ code {
   display:flex;
 }
 h1{
-  color: rgb(114, 138, 243) !important;
+  color: rgba(238, 115, 129, 0.511) !important;
 }
 .projs_container{
   background-color:rgba(34, 30, 62, 0.448);
@@ -41,8 +46,22 @@ h1{
 .proj_img{
   width: 100%;
 }
-a{
+nav a{
   margin-right: 2rem;
   text-decoration: none;
-  color:#b7425f !important;
+  color:#bdbcbc !important;
+}
+
+#justify{
+  text-align: justify; 
+}
+
+
+#carousel-wrapper{
+  display: flex;
+  justify-content: center;
+}
+
+#flex{
+  width: 80%;
 }
